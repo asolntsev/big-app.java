@@ -1,0 +1,7 @@
+defaultTasks 'classes'
+
+apply plugin: "java"
+
+repositories {
+  mavenCentral()
+}
