@@ -12,7 +12,12 @@ public class Hello1 {
     System.out.println("Hello " + debug());
   }
   
-  private static Object debug() {return util.Util.get();}
+    record Message(Object text) {}
+
+  private static Message debug() {
+    return new Message(util.Util.get());
+  }
+
   
   private static void sort(List<Object> list) {
     Collections.sort(list, new Comparator<Object>() {

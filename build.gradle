@@ -5,3 +5,6 @@ apply plugin: "java"
 repositories {
   mavenCentral()
 }
+
+sourceCompatibility = 16
+targetCompatibility = 16
