@@ -6,5 +6,5 @@ repositories {
   mavenCentral()
 }
 
-sourceCompatibility = 16
-targetCompatibility = 16
+sourceCompatibility = 17
+targetCompatibility = 17
